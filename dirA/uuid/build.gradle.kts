@@ -49,10 +49,10 @@ kotlin {
   sourceSets.all {
     languageSettings {
       progressiveMode = true
-      languageVersion = "1.9"
-      apiVersion = "1.9"
-      //languageVersion = "2.0"
-      //apiVersion = "2.0"
+      //languageVersion = "1.9"
+      //apiVersion = "1.9"
+      languageVersion = "2.0"
+      apiVersion = "2.0"
     }
   }
 }
